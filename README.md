@@ -2,14 +2,6 @@
 
 A Chrome extension that tracks URL redirects with status codes and headers.
 
-## Features
-
-- Tracks all URL redirects in real-time
-- Shows redirect chains with status codes
-- Displays response headers
-- Allows deleting individual redirect entries
-- Clear all history functionality
-
 ## Installation
 
 1. Clone this repository
