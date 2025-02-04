@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 600px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .redirect-group {
+      border: 1px solid #e0e0e0;
+      margin: 10px 0;
+      padding: 10px;
+      position: relative;
+      background-color: #fafafa;
+    }
+    .redirect-date {
+      color: #757575;
+      font-size: 0.9em;
+    }
+    .delete-btn {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      background: #e57373;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    .delete-btn:hover {
+      background: #ef5350;
+    }
+    .clear-all {
+      background: #90a4ae;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      border-radius: 3px;
+    }
+    .clear-all:hover {
+      background: #78909c;
+    }
+    .url {
+      word-break: break-all;
+      margin: 5px 0;
+      color: #424242;
+    }
+    .status {
+      color: #1976d2;
+    }
+    .empty-state {
+      color: #757575;
+      text-align: center;
+      padding: 20px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <button id="clearAll" class="clear-all">Clear All History</button>
+  <div id="redirects"></div>
+  <script src="popup.js"></script>
+</body>
+</html> 
