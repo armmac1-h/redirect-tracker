@@ -1,6 +1,6 @@
 # Redirect Tracker Chrome Extension
 
-A Chrome extension that tracks URL redirects with status codes and headers.
+A Chrome extension that tracks URL redirects with status codes.
 
 ## Installation
 
